@@ -1,0 +1,44 @@
+.courtBuilder {
+	color: red;
+	position: relative;
+	max-width: 1200px;
+}
+
+.cb-hidden {
+	display: none;
+}
+
+.cb-courtEquip {
+	display: inline-block;
+	margin-right: 5%;
+}
+
+.cb-poleChoice {
+	margin-top: 10px;
+}
+
+.cb-poles {
+	display: none;
+}
+
+#cb-Bazooka {
+	position: absolute;
+	top: 290px;
+	left: 200px;
+}
+
+#cb-Monson {
+	position: absolute;
+	top: 271px;
+	left: 205px;
+}
+
+#cb-Wood {
+	position: absolute;
+	top: 321px;
+	left: 200px;
+}
+
+.cb-showPole {
+	display: block;
+}

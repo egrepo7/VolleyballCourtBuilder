@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<body>
+
+		<section class="courtBuilder">
+			<img src="images/blankCourt.png">
+			<img id="cb-Monson" class="cb-hidden"  src="images/Monson.png">
+			<img id="cb-Wood"  class="cb-hidden" src="images/Wood.png">
+			<img id="cb-Bazooka"  class="cb-hidden" src="images/Bazooka.png">
+
+			<div class="cb-courtEquip">
+				<h1>Select Your Poles:</h1>
+				<input id="bazookaButton" type="button" name="bazooka" value="Bazooka">
+				<input id="woodButton" type="button" data-pole="wood" name="slider" value="Slider">
+				<input id="monsonButton" type="button" data-pole="monson" name="monson" value="Monson">
+			</div>
+
+			<div class="cb-courtEquip">
+				<h1>Select Pole Padding:</h1>
+				<input id="cb-VBSP" type="button" value="Volleyball Standard Pad">
+				<input id="cb-ESP" type="button" value="Economy Pad">
+				<input id="cb-CustomPad" type="button" value="Custom Pad">
+				<input id="cb-noPad" type="button" value="None">
+			</div>
+
+			<div class="cb-courtEquip">
+				<h1>Select Your Net:</h1>
+				<input id="4inNet" type="button" value='4" Net'>
+				<input id="2inNet" type="button" value='2" Net'>
+				<input id="RecNet" type="button" value="Recreation Net">
+			</div>
+
+			<div class="cb-courtEquip">
+				<h1>Select Boundary Lines Size:</h1>
+				<input id="2inBL" type="button" value="2 Inch Boundary Lines">
+				<input id="4inBL" type="button" value="4 Inch Boundary Lines">
+				<input id="cb-noBL" type="button" value="None">
+			</div>
+
+			<div class="cb-courtEquip">
+				<h1>Select Court Edging:</h1>
+				<input id="edgeGuard" type="button" value="Edge Guard">
+				<input id="CurbPad" type="button" value="Curb Padding">
+				<input id="cb-noEdge" type="button" value="None">
+			</div>
+
+
+
+		</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="custom.js"></script>
+	</body>
+</html>
